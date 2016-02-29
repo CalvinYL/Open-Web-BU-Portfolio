@@ -1,0 +1,367 @@
+/**************************
+ GENERAL
+**************************/
+
+body {
+   font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+   max-width: 1000px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+   max-width: 100%;            /* IMPORTANT */
+}
+
+
+/*******************************************************
+   Navigation Drop Down Menu
+******************************************************/
+
+nav {
+   background: #d0cfcb !important;
+   border: none !important;
+   margin-top: -2px;
+}
+
+.nav-tabs.nav-justified>li>a {
+   border-bottom: none !important;
+}
+
+.nav > li > a {
+   text-transform: uppercase;
+   font-weight: bold;
+   color: white;
+}
+
+.nav > li > ul > li {
+   text-transform: uppercase;
+   font-weight: bold !important;
+}
+
+
+/******************************
+ Slideshow Placeholder
+ ******************************/
+.slideshow {
+   margin-top: -22px;
+}
+
+.slideshow img {
+   width: 100%;
+   height: auto;
+}
+
+
+
+
+
+/**************************
+ HEADING
+**************************/
+
+.LEF-logo {
+   padding-top: 10px;
+   width: 250px;
+   height: 150px;
+   margin: 0 auto;
+   display: block;
+   position: relative;
+}
+
+#logo {
+   text-align: center;
+   margin-bottom: 30px;
+   position: relative;
+}
+
+header {
+	background-image: url('../LEF Website/img/LEFBackground.jpg');
+   margin: 0 0 0 0;     /* top, right, bottom, left */
+   padding: 10px 0 5px 0;
+   width: 100%;
+}
+
+
+
+
+h1 {
+   font-family: 'Changa One', sans-serif;
+   margin: 15px 0;
+   font-size: 1.75em;
+   font-weight: normal;
+   line-height: 0.8em;
+}
+
+
+
+/**************************
+   Heading and Text
+***************************/
+
+h2, h3, h4, h5 {
+   font-family: 'Changa One', sans-serif;
+   text-align: center;
+   font-size: 30px !IMPORTANT;
+   font-weight: normal;
+}
+
+p {
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   width: 25em;
+   line-height: 1.3;                           /* Fix resizing on mobile */
+}
+
+#contact {
+   text-align: center;
+}
+
+#donate button {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 150px;
+   height: 40px;
+   background-color: #86b2bf;
+   color: white;
+   border: none;
+   font-size: 14px;
+}
+
+#shortdes {
+   background-color: #631818;
+   margin-top: -20px;
+}
+
+#shortdes > h2 {
+   color: white;
+   padding-top: 30px;
+}
+
+#shortdes > p {
+   color: #d0cfcb;
+   line-height: 1.7;
+   padding-top: 10px;
+   font-size: 1.1em;
+   padding-bottom: 17px;
+   margin-top: 19px;
+}
+
+
+
+/**************************
+ FOOTER
+**************************/
+
+footer {
+   font-size: 1em;
+   text-align: center;
+   clear: both;               /* clears on both left and right sides*/
+   padding-top: 50px;
+   color: #ccc;
+   margin: center;
+}
+
+footer h5 {
+   color: #000;
+}
+
+.social-icon {
+   width: 50px;
+   height: 50px;
+   margin: 0 20px;
+}
+
+
+
+
+
+
+/**************************
+ COLORS
+**************************/
+
+/* site body */
+body {
+   background-color: #fff;
+   color: #000;
+}
+
+
+
+/* logo text */
+h1 {
+   color: #fff;
+}
+
+h2 {
+   color: #4261a3;
+}
+
+/* links */
+a {
+   color: #3399FF;
+}
+
+
+.about-us-head {
+   margin-top: -20px;
+   padding: 6px 0px 10px 0px;
+}
+
+.red-text {
+   color: #631818;
+   padding-top: 15px;
+}
+
+.mission-statement {
+   line-height: 1.5;
+   margin-top: 20px;
+}
+
+.mission-statement-div {
+   background-color: #86b2bf;
+   margin-top: -20px;
+   padding-bottom: 20px;
+}
+
+.about-us-quotation-div {
+   background-image: url('../img/LEFBackground.jpg');
+   margin-top: -20px;
+   padding-top: 20px;
+   padding-bottom: 13px;
+}
+
+.about-us-quotation {
+   color: white;
+   line-height: 1.6;
+   font-weight: bold;
+   font-size: 20px;
+
+}
+
+
+.liberia-title {
+   text-align: center;
+   margin-left: 20px;
+   padding-top: 20px;
+}
+
+.liberia-map {
+   max-height: 400px;
+   float: center;
+   margin-bottom: 4em;
+}
+
+@media (max-width: 1200px) {
+   .liberia-regular-text {
+      text-align: center;
+      margin-left: 20px;
+      width: 90%;
+      margin: 0 auto;
+      line-height: 1.6;
+      font-size: 1.2em;
+   }
+}
+
+@media (min-width: 1200px) {
+   .liberia-regular-text {
+      text-align: center;
+      margin-left: 20px;
+      width: 90%;
+      margin: 0 auto;
+      line-height: 1.8;
+      font-size: 1.4em;
+   }
+}
+
+@media (max-width: 767px) {
+   .liberia-map {
+      max-height: 400px;
+      float: center;
+      margin: 0 auto;
+      display: block;
+      padding-top: 2em;
+   }
+
+}
+
+.mtop-2 {
+   margin-top: 2em;
+}
+
+.select-amount-text {
+   margin-top: 1em;
+   text-align: center;
+   font-weight: bold;
+   font-size: 1.2em;
+}
+
+.donate-div {
+   background-color: #83b484;
+   margin-top: -20px;
+   padding-bottom: 30px;
+}
+
+.donate-buttons {
+   width: 120px;
+   height: 50px;
+   margin: 0 20px;
+   background-color: #631818;
+   color: white;
+   font-weight: bold;
+   border: none;
+}
+
+.donate-buttons-div {
+   padding-top: 20px;
+   margin: 0 auto;
+   display: block;
+   text-align: center;
+}
+
+.donate-reasons-div {
+   margin-top: -20px;
+   background-image: url("img/donate-reasons.png");
+   padding-bottom: 20px;
+}
+
+.where-does-money-go {
+   padding-top: 20px;
+   color: black;
+   font-size: 1.3;
+}
+
+.donate-icons {
+   margin: 0 auto;
+   display: block;
+   height: 100px;
+   width: auto;
+
+}
+
+.donate-icon-title {
+   text-align: center;
+   color: black;
+   font-weight: bold;
+   font-size: 1.3em;
+   padding-top: 20px;
+}
+
+.donate-title-description {
+   line-height: 1.7;
+}
+
+.slideshow-cut {
+   margin-top: -3em;
+}

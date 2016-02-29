@@ -4,4 +4,4 @@ I led a team of ten peers to develop a website for LEF.
 
 Languages used: HTML, CSS, Bootstrap
 
-Disclaimer: This website is no longer being used by LEF.
+Disclaimer: This website is no longer active or being used by LEF.
